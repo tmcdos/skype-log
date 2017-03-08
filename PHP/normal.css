@@ -1,0 +1,682 @@
+body
+{
+	scrollbar-base-color: #F5F5F5;
+	scrollbar-face-color: Silver;
+	scrollbar-track-color: #E0E0E0; /* фон; ако го няма - highlight & face == шахматно */
+	scrollbar-arrow-color: Black; /* active */
+	scrollbar-shadow-color: Black; /* inactive arrow, шахматно с highlight; inside right & bottom */
+	scrollbar-darkshadow-color: #F1F1F1; /* right & bottom */
+	scrollbar-highlight-color: Black;
+	scrollbar-3dlight-color: white; /* upper & left */
+	font-family: Tahoma;
+	font-size: 12pt;
+}
+
+table
+{
+	font-size: 10pt;
+}
+
+table.login
+{
+  border: 1px solid gray;
+  background-color: white;
+	font-size: 10pt;
+}
+
+th.login
+{
+  font-size: 11pt;
+  border-bottom: 1px solid blue;
+}
+
+table.header
+{
+	background-color: #F4E9DC;
+	border: 1px solid #9B9590;
+	font-family: Tahoma;
+	font-size: 9pt;
+}
+
+table.menu
+{
+	background-color: #7192B7;
+}
+
+td.menu
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	font-weight: bold;
+	padding-top: 1pt;
+	padding-bottom: 2pt;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+table.footer
+{
+	background-color: #6F83E8;
+	color: white;
+	font-size: 14pt;
+}
+
+table.list_1
+{
+	font-size: 10pt;
+	border-collapse: collapse;
+	border: 1px solid #3838E2;
+	background-color: #E0E0E0;
+}
+
+table.list_1 td
+{
+	border: 1px solid #3838E2;
+}
+
+table.list_1 th
+{
+	border: 1px solid #3838E2;
+  background-color: #F0CAA6;
+}
+
+table.list_2
+{
+	background-color: #E0DCFF;
+	font-size: 10pt;
+	border: 1px solid blue;
+}
+
+th.list_2a
+{
+	background-color: #E0DCFF;
+	font-size: 10pt;
+	font-weight: bold;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	border-top: 1px solid blue;
+}
+
+th.list_2b
+{
+	font-size: 10pt;
+	font-weight: bold;
+	/*border-bottom: 1px solid blue;*/
+}
+
+th.list_2c
+{
+	font-size: 10pt;
+	font-weight: bold;
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	border-top: 1px solid blue;
+}
+
+table.list_3
+{
+	background-color: #E8E8E8;
+	border:1px solid blue;
+}
+
+table.list_4
+{
+	font-size: 9pt;
+	font-family: Tahoma;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+table.list_4 td
+{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+table.list_4 th
+{
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+table.list_5
+{
+	background-color: blue;
+	font-size: 10pt;
+	font-family: Tahoma;
+}
+
+table.notice
+{
+	background-color: #FFFFEF;
+	font-size: 10pt;
+	border: 1px solid #FFB075;
+}
+
+td.notice
+{
+	border-right: 1px solid #FFB075;
+	border-bottom: 1px solid #FFB075;
+}
+
+table.tin
+{
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+
+th.tin
+{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+td.tin
+{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+table.cl_req
+{
+	background-color: #EFDBC9;
+	font-size: 10pt;
+	border: 1px solid black;
+}
+
+th.cl_req
+{
+	background-color: #E9AEEF;
+}
+
+table.log
+{
+	font-family:Tahoma;
+	background-color: #D3D3D3;
+	padding-left:5px;
+	padding-right:5px;
+	border-color:black;
+	border-width:1pt;
+	border-style:solid;
+}
+
+table.log #sub
+{
+	border-style:groove;
+}
+
+table.log th
+{
+	background-color:#0000F0;	
+	color:White;
+	text-align:center;
+}
+
+td.sortable
+{
+	cursor: pointer;
+}
+
+th.sortable
+{
+	cursor: pointer;
+}
+
+a.menu
+{
+	color: black;
+	text-decoration: none;
+	font-size: 9pt;
+	font-weight: normal;
+	font-family: Tahoma;
+	padding-bottom: 2px;
+	background-color: #D4D0C8;
+	border:2px outset white;
+}
+
+a.menu:hover
+{
+	background-color: white;
+	border:2px inset white;
+}
+
+a.menu2
+{
+	color: white;
+	background-color: #FF996D;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+a.menu2:hover
+{
+	color: #0E1DF2;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 10pt;
+	font-family: Verdana;
+}
+
+a.amenu
+{
+  padding: 1pt;
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	font-weight: bold;
+	border:2px solid black;
+}
+
+a.amenu:hover
+{
+  padding: 1pt;
+	color: white;
+	background-color: blue;
+	text-decoration: none;
+	font-weight: bold;
+	border:2px solid black;
+}
+
+a.amenu2
+{
+  padding: 1pt;
+	color: white;
+	background-color: blue;
+	text-decoration: none;
+	font-weight: bold;
+	border:2px solid black;
+}
+
+a.amenu2:hover
+{
+  padding: 1pt;
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	font-weight: bold;
+	border:2px solid black;
+}
+
+a.pager
+{
+	color: blue;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+a.pager:hover
+{
+	color: red;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+a.cl_tit
+{
+	color: #0039AD;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Tahoma;
+}
+
+a.cl_tit:hover
+{
+	color: #0039AD;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+a.tit
+{
+	color: #6F83E8;
+	text-decoration: none;
+}
+
+a.whead
+{
+  padding: 1pt;
+	color: black;
+	background-color: #CBDAEF;
+	font-weight: bold;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+a.whead:hover
+{
+  padding: 1pt;
+	color: white;
+	background-color: #EF8FB9;
+	font-weight: bold;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+a.atip
+{
+	color: black;
+	text-decoration: underline;
+}
+
+a.action
+{
+	padding:1px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	border:1px solid #D8D8D8;
+}
+
+a.action:hover
+{
+	padding:1px;
+	color: white;
+	background-color: #6F83E8;
+	font-weight: bold;
+	text-decoration: none;
+	border:1px solid black;
+}
+
+a.action2
+{
+	padding: 2px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.action2:hover
+{
+	padding: 2px;
+	color: black;
+	background-color: #D7DAF7;
+	font-weight: bold;
+	text-decoration: none;
+	border:1px solid blue;
+}
+
+a.button2 
+{
+	color: white;
+	border: 2px solid black;
+	background-color: #FCA93C;
+	font-family: Tahoma;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+a.btn
+{
+	white-space: nowrap;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	border-radius: 6px;
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 1.33;
+	padding: 6px 10px;
+	text-decoration: none;
+}
+
+a.btn-yes
+{
+	background-color: #5CB85C;
+	color: white;
+}
+
+a.btn-no
+{
+	background-color: #D9534F;
+	color: white;
+}
+
+font.warning
+{
+	color: red;
+	font-size: 10pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+input.button
+{
+	color: white;
+	border: 1px solid Black;
+	background-color: #FFAA49;
+	font-family: Tahoma;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+input.button0
+{
+	color: black;
+	border: none;
+	background-color: #FFA500; /* orange */
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+input.button2
+{
+/*
+	color: white;
+	border: 1px solid black;
+	background-color: orange;
+	font-family: Tahoma;
+	font-weight: bold;
+*/
+	font-family: Tahoma;
+	font-weight: bold;
+	background-color: #D4D0C8;
+	border:2px outset white;
+}
+
+input.button2a
+{
+	font-family: Tahoma;
+	font-weight: bold;
+	background-color: white;
+	border:2px inset white;
+}
+
+input.button3
+{
+	color: blue;
+	font-weight: bold;
+	font-family: Verdana;
+	border: 1px solid black;
+	background-color: #F0C848;
+}
+
+input.button4
+{
+	color: black;
+	font-weight: normal;
+	font-family: Verdana;
+	border: 2px outset #E6F0F2;
+	background-color: #F9D14A;
+}
+
+input.button4a
+{
+	color: black;
+	font-weight: normal;
+	font-family: Verdana;
+	border: 2px inset #E6F0F2;
+	background-color: white;
+}
+
+input.edit
+{
+	color: #003399;
+/*	font-weight: bold; */
+	font-family: Verdana;
+	border: 1px solid Black;
+	background-color: #FFFFE0;
+}
+
+input.edit2
+{
+  font-family: Tahoma; 
+  border: none; 
+  background-color: #ACB539; 
+}
+
+input.combo
+{
+	color: #003399;
+/*	font-weight: bold; */
+	font-family: Verdana;
+	background-color: #FFFFE0;
+}
+
+input.checker
+{
+	border: 1px solid black;
+	height: 15px;
+	width: 15px;
+}
+
+.edo
+{
+  background-color: #ACB539;
+}
+
+.static
+{
+	color: black;
+	font-family: Verdana;
+	border: 2px ridge white;
+	background-color: #DBD3CE;
+	padding: 1px;
+}
+
+.static2
+{
+	color: black;
+	font-family: Tahoma;
+	background-color: #DBD3CE;
+}
+
+.skrit
+{
+	color: black;
+	font-family: Verdana;
+	border: 0px solid Black;
+	background-color: transparent;
+}
+
+select.combo
+{
+  background-color: #FFFFE0;
+  font-family: Tahoma;
+	color: #003399;
+}
+
+select.combo1
+{
+  background-color: #FFFFE0;
+  font-family: Tahoma;
+	color: #003399;
+	width: 60pt;
+}
+
+select.combo2
+{
+  background-color: #FFFFE0;
+  font-family: Tahoma;
+	color: #003399;
+	font-weight: bold;
+	width: 60pt;
+}
+
+textarea
+{
+	font-family: 'Times New Roman';
+	font-size: 9pt;
+}
+
+textarea.coment
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	background-color: #FFFFE0;
+	border:1px solid black;
+}
+
+.scroll
+{
+	scrollbar-base-color: #F5F5F5;
+	scrollbar-face-color: Silver;
+	scrollbar-track-color: #E0E0E0; /* фон; ако го няма - highlight & face == шахматно */
+	scrollbar-arrow-color: Black; /* active */
+	scrollbar-shadow-color: Black; /* inactive arrow, шахматно с highlight; inside right & bottom */
+	scrollbar-darkshadow-color: #F1F1F1; /* right & bottom */
+	scrollbar-highlight-color: Black;
+	scrollbar-3dlight-color: white; /* upper & left */
+}
+
+div.over
+{
+	overflow: scroll;
+	border: 1px solid black;
+	background-color: #FFFFE0;
+}
+
+div.tree
+{
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #5873DD;
+	text-decoration: none;
+}
+
+div.event
+{
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: red;
+	text-decoration: none;
+}
+
+div.junk
+{
+	font-family: Arial;
+	font-size: 9pt;
+	color: #FFA500; /* orange; */
+	text-decoration: none;
+}
+
+div.menu
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	font-weight: bold;
+	padding-top: 1px;
+	padding-bottom: 2pt;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.dog_left
+{
+	border-right: 1px solid black;
+	text-align: justify;
+	padding-right: 5pt;
+}
+
+.dog_right
+{
+	padding-left: 5pt;
+	text-align: justify;
+}
